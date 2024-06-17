@@ -397,14 +397,16 @@ html,body{
 	background-image:url(../../assets/images/banner/banner1.jpg);
 	position:relative;
 	z-index:1;
+	height: 898px;
 }
 .single-slide-item.slide-2 {
 	background-image:url(../../assets/images/banner/banner2.jpg);
 	position:relative;
 	z-index:1;
+	height: 898px;
 }
 .single-slide-item.slide-1:before,.single-slide-item.slide-2:before{
-	background:rgba(115,112,215,.6);
+/* 	background:rgba(115,112,215,.6); */
 	position:absolute;
 	left:0;
 	top:0;
