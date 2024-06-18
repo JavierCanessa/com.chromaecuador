@@ -1,9 +1,7 @@
-Zombiz – Business Agency Responsive HTML5/CSS3 template
+Green Garden Chroma – Business Agency Responsive HTML5/CSS3 template
 --------------------------------------------------------
 ZomBiz is an amazing html5 template for any corporate, finance or other business agencies. Our designers designed this with eye-catching backgrounds and fonts which will make your visitors love this eye-catchy user interface. This outstanding responsive template coded in bootstrap3 and CSS3 by our developer. This super responsive template offers fantastic animations, modern design with full customizability so you will get full control to change and update as you want.<br>
 <a href="https://www.themesine.com/downloads/zombiz-agency-html5-template/" target="_blank">Preview Link</a>
-
-We would love to see how you use this amazing html5 template. You can notify us about your site by sending a mail to us. We will write a blog post to showcase the best examples.
 
 Preview
 --------
