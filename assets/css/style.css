@@ -1154,7 +1154,7 @@ a:active.learn-btn{
     margin: 5px 3px;
     border-radius:50%;
     background: transparent;
-    border: 2px solid #dfdeff;	
+    border: 2px solid #43eb19;	
 }
 .testemonial .owl-theme .owl-dots .owl-dot.active span{
     background: #08864A;
@@ -1187,7 +1187,7 @@ a:active.learn-btn{
     padding: 14px 0 0px;
 }
 .home1-testm-txt span {
-    color: #c3c3ef;
+    color: #08864A;
     font-size: 40px;
 }/*home1-testm-txt*/
 
