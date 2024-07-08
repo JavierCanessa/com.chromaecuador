@@ -212,12 +212,12 @@ html,body{
 .wrapper-sticky{
 	position: relative;
 	display: inline-block;
-	background:rgba(8,134,74,1);
+	background:#045404;
 }
 
 /* sticky */
 .sticky{
-	background:rgba(8,134,74,1);
+	background:#045404;
 	padding: 10px 0px 0px;
 	height:80px;
 	color: #fff;
@@ -1142,7 +1142,7 @@ a:active.learn-btn{
     height: 100px;
     line-height: 100px;
     border-radius: 50%;
-    border: 2px solid #08864A;
+    border: 2px solid #6c8d6c;
 }
 .testemonial .owl-theme .owl-nav.disabled+.owl-dots {
     padding-bottom: 110px;
@@ -1154,11 +1154,11 @@ a:active.learn-btn{
     margin: 5px 3px;
     border-radius:50%;
     background: transparent;
-    border: 2px solid #43eb19;	
+    border: 2px solid #6c8d6c;	
 }
 .testemonial .owl-theme .owl-dots .owl-dot.active span{
-    background: #08864A;
-    border: 2px solid #08864A;
+    background: #6c8d6c;
+    border: 2px solid #6c8d6c;
 }
 
 /*home1-testm-txt*/
@@ -1173,7 +1173,7 @@ a:active.learn-btn{
     padding: 15px 0 30px;
 }
 .home1-testm-txt h3 a{
-	color: #08864A;
+	color: #6c8d6c;
 	font-size: 24px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -1187,7 +1187,7 @@ a:active.learn-btn{
     padding: 14px 0 0px;
 }
 .home1-testm-txt span {
-    color: #08864A;
+    color: #6c8d6c;
     font-size: 40px;
 }/*home1-testm-txt*/
 
@@ -1342,7 +1342,7 @@ a:active.learn-btn{
 	position: relative;
 }
 .contact:before{
-	background:rgba(8,134,74,.85);
+	background:rgba(4,84,4,.70);
 	position:absolute;
 	left:0;
 	top:0;
@@ -1401,7 +1401,7 @@ a:active.learn-btn{
 	display:flex;
 	align-items:center;
 	justify-content:center;
-	background: #08864A;
+	background: #045404;
 	height:50px;
 	width: 195px;
 	border:2px solid #fff;
@@ -1712,7 +1712,7 @@ a:active.learn-btn{
 		17. Footer- copyright
 --------------------------------------*/
 .footer-copyright {
-	background:#1a1a2a;
+	background:#045404;
 	padding: 30px 0 35px;
 }
 .foot-copyright{
@@ -2318,8 +2318,8 @@ a:active.learn-btn{
     cursor: pointer;
     z-index:15;
     color: #fff;
-    background:#08864A;
-	border:1px solid #08864A;
+    background:#045404;
+	border:1px solid #045404;
 	border-radius:5px;
 	-webkit-transition: .5s; 
 	-moz-transition:.5s; 
