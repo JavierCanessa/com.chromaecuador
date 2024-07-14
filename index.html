@@ -129,6 +129,14 @@
 					<div class="single-slide-item slide-2">
 					</div><!-- /.single-slide-item-->
 				</div><!-- /.item .active-->
+				<div class="item"> <!-- Nueva diapositiva para el video -->
+					<div class="single-slide-item slide-3">
+						<video id="carousel-video" width="100%" height="600px" autoplay muted>
+							<source src="assets/CreativeClau/VIdeoChroma.mp4" type="video/mp4">
+							Tu navegador no soporta el video.
+						</video>
+					</div><!-- /.single-slide-item-->
+				</div><!-- /.item-->
 			</div><!-- /.carousel-inner-->
 
 			<!-- Controls -->
@@ -534,6 +542,19 @@
 	<!--Custom JS-->
 	<script type="text/javascript" src="assets/js/jak-menusearch.js"></script>
 	<script type="text/javascript" src="assets/js/custom.js"></script>
+
+	<!--Script para video en carousel-->
+	<script>
+		$('#carousel-example-generic').on('slid.bs.carousel', function () {
+			var video = document.getElementById('carousel-video');
+			if ($('.item.active .slide-3').length) {
+				video.currentTime = 0;
+				video.play();
+			} else {
+				video.pause();
+			}
+		});
+	</script>
 
 
 </body>
