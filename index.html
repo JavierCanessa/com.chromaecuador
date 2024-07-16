@@ -117,6 +117,7 @@
 			<ol class="carousel-indicators">
 				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
 			</ol>
 
 			<!-- Wrapper for slides -->
@@ -542,26 +543,21 @@
 	<!--Custom JS-->
 	<script type="text/javascript" src="assets/js/jak-menusearch.js"></script>
 	<script type="text/javascript" src="assets/js/custom.js"></script>
+	
 
-	<!--Script para video en carousel-->
 	<script>
 		document.addEventListener('DOMContentLoaded', function() {
-    var myCarousel = document.getElementById('carousel-example-generic');
     var video = document.getElementById('carousel-video');
 
-    myCarousel.addEventListener('slide.bs.carousel', function (event) {
-        // Pausar el video cuando el slide cambie
-        if (event.relatedTarget.querySelector('.slide-3')) {
-            video.pause();
-        }
-    });
+    video.addEventListener('ended', function() {
+        // Pausar el video al final
+        video.pause();
 
-    myCarousel.addEventListener('slid.bs.carousel', function (event) {
-        // Reproducir el video cuando el slide-3 esté activo
-        if (event.relatedTarget.querySelector('.slide-3')) {
+        // Establecer un retraso de 1 segundo (1000 ms) antes de reiniciar el video
+        setTimeout(function() {
             video.currentTime = 0; // Reiniciar el video
-            video.play();
-        }
+            video.play(); // Reproducir el video
+        }, 10000); // 1000 ms = 1 segundo
     });
 });
 
