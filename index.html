@@ -131,7 +131,7 @@
 				</div><!-- /.item .active-->
 				<div class="item"> <!-- Nueva diapositiva para el video -->
 					<div class="single-slide-item slide-3">
-						<video id="carousel-video" width="100%" height="600px" autoplay muted>
+						<video id="carousel-video" width="100%" height="600px" muted loop>
 							<source src="assets/CreativeClau/VIdeoChroma.mp4" type="video/mp4">
 							Tu navegador no soporta el video.
 						</video>
@@ -545,15 +545,26 @@
 
 	<!--Script para video en carousel-->
 	<script>
-		$('#carousel-example-generic').on('slid.bs.carousel', function () {
-			var video = document.getElementById('carousel-video');
-			if ($('.item.active .slide-3').length) {
-				video.currentTime = 0;
-				video.play();
-			} else {
-				video.pause();
-			}
-		});
+		document.addEventListener('DOMContentLoaded', function() {
+    var myCarousel = document.getElementById('carousel-example-generic');
+    var video = document.getElementById('carousel-video');
+
+    myCarousel.addEventListener('slide.bs.carousel', function (event) {
+        // Pausar el video cuando el slide cambie
+        if (event.relatedTarget.querySelector('.slide-3')) {
+            video.pause();
+        }
+    });
+
+    myCarousel.addEventListener('slid.bs.carousel', function (event) {
+        // Reproducir el video cuando el slide-3 esté activo
+        if (event.relatedTarget.querySelector('.slide-3')) {
+            video.currentTime = 0; // Reiniciar el video
+            video.play();
+        }
+    });
+});
+
 	</script>
 
 
