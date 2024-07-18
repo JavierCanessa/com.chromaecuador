@@ -394,21 +394,21 @@ html,body{
 	 border: 1px solid #fff;
 }
 .single-slide-item.slide-1 {
-	background-image:url(../../assets/CreativeClau/imgenesservicios/imagen4.jpeg);
+	background-image:url(../../assets/CreativeClau/imgenesservicios/imagena.jpeg);
 	position:relative;
 	z-index:1;
-	height: 525px;
+	height: 510px;
 }
 .single-slide-item.slide-2 {
-	background-image:url(../../assets/CreativeClau/imgenesservicios/imagen1.jpeg);
+	background-image:url(../../assets/CreativeClau/imgenesservicios/imagenc.jpeg);
 	position:relative;
 	z-index:1;
-	height: 525px;
+	height: 510px;
 }
 .single-slide-item.slide-3 {
     position: relative;
     z-index: 1;
-    height: 525px;
+    height: 510px;
     overflow: hidden; /* Asegura que el video se ajuste correctamente */
 }
 
@@ -429,7 +429,7 @@ html,body{
 }
 .single-slide-item-img img{
 	width:auto;
-	height: 525px;
+	height: 510px;
 }
 /* .single-slide-item */
 
