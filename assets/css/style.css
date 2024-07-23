@@ -406,6 +406,12 @@ html,body{
 	height: 510px;
 }
 .single-slide-item.slide-3 {
+	background-image: url(../../assets/CreativeClau/imgenesservicios/imagenb.jpeg);
+	position: relative;
+    z-index: 1;
+    height: 510px;
+}
+.single-slide-item.slide-4 {
 	background-image: url(../../assets/CreativeClau/chromaCarousel.png);
 	position: relative;
     z-index: 1;
@@ -517,7 +523,7 @@ html,body{
 		4. We-do
 --------------------------------------*/
 .we-do{
-	padding: 70px 0 82px;
+	padding: 100px 0 82px;
 }
 
 /* section-header */
@@ -697,6 +703,7 @@ html,body{
 	font-size:16px;
 	font-family: 'Poppins', sans-serif;
 	line-height: 1.67;
+	text-align: left;
 }
 a.service-btn,
 a:active.service-btn,
@@ -713,6 +720,22 @@ a:focus.service-btn{
 .service-single:hover{
 	box-shadow:0 5px 20px rgba(112,134,230,.2);
 	opacity: 1;
+}
+
+/* Estilo de las listas jcanessatech */
+.service-txt ul.ulservice {
+	color: #756c6a;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.67;
+	text-align: left;
+	margin: 15px 0 15px 0 ;
+	padding-left: 20px; /* Ajusta según sea necesario */
+}
+
+/* Estilo de los elementos de lista */
+.service-txt ul.ulservice li {
+	margin-bottom: 10px; /* Ajusta según sea necesario */
 }
 
 /*-------------------------------------
@@ -1344,7 +1367,7 @@ a:active.learn-btn{
 --------------------------------------*/
 .contact {
     padding: 115px 0 120px;
-    background:url(../../assets/images/footer/map.jpg)no-repeat;
+    background:url(../../assets/images/footer/chromaCarousel.png)no-repeat;
 	background-position:center;
 	background-size: cover;
 	position: relative;
