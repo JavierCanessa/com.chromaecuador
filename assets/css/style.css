@@ -665,7 +665,7 @@ html,body{
 		6. Service
 --------------------------------------*/
 .service{
-    padding: 116px 0 85px;
+    padding: 116px 0 0;
 	background-color:aliceblue;
 }
 .service-single{
@@ -713,7 +713,7 @@ a:focus.service-btn{
     font-size:16px;
 	font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
-    margin-top:12px;
+    margin-top:20px;
     margin-bottom: 15px;
 }/*.service-txt*/
 
