@@ -1369,7 +1369,7 @@ a:active.learn-btn{
     padding: 115px 0 120px;
     background:url(../../assets/images/footer/chromaCarousel.png)no-repeat;
 	background-position:center;
-	background-size: cover;
+	background-size: contain;
 	position: relative;
 }
 .contact:before{
