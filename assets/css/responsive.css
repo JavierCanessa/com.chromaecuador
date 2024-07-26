@@ -207,6 +207,12 @@
 		margin: 10px 0px;
 	}
 
+	.navbar-brand,
+    .navbar-brand:hover,
+    .navbar-brand:focus {
+        margin-top: -35px;
+    }
+
 	.search span {
 		left: 28px;
 	}
