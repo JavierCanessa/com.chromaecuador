@@ -394,24 +394,36 @@ html,body{
 	 border: 1px solid #fff;
 }
 .single-slide-item.slide-1 {
-	background-image:url(../../assets/CreativeClau/imgenesservicios/imagena.jpeg);
+	background-image:url(../../assets/CreativeClau/imgenesservicios/imagen1.jpeg);
 	position:relative;
 	z-index:1;
 	height: 510px;
 }
 .single-slide-item.slide-2 {
-	background-image:url(../../assets/CreativeClau/imgenesservicios/imagenc.jpeg);
+	background-image:url(../../assets/CreativeClau/imgenesservicios/imagen2.jpeg);
 	position:relative;
 	z-index:1;
 	height: 510px;
 }
 .single-slide-item.slide-3 {
-	background-image: url(../../assets/CreativeClau/imgenesservicios/imagenb.jpeg);
+	background-image: url(../../assets/CreativeClau/imgenesservicios/imagen3.jpeg);
 	position: relative;
     z-index: 1;
     height: 510px;
 }
 .single-slide-item.slide-4 {
+	background-image: url(../../assets/CreativeClau/imgenesservicios/imagen4.jpeg);
+	position: relative;
+    z-index: 1;
+    height: 510px;
+}
+.single-slide-item.slide-5 {
+	background-image: url(../../assets/CreativeClau/imgenesservicios/imagen5.jpeg);
+	position: relative;
+    z-index: 1;
+    height: 510px;
+}
+.single-slide-item.slide-6 {
 	background-image: url(../../assets/CreativeClau/chromaCarousel.png);
 	position: relative;
     z-index: 1;
